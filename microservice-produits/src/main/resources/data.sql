@@ -10,6 +10,6 @@ INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (4, 'Flacon �
 
 INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (5, 'Horloge quantique', 'Donne l''heure, les minutes et même les secondes. Ne fait pas de café', 'https://s3.eu-west-3.amazonaws.com/oc-images-cours/horloge.jpg', 180.0);
 
-INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (7, 'Table d''opération pour Hamsters', 'Pour réaliser vos opérations chirugicales sur votre Hamster!', 'https://s3.eu-west-3.amazonaws.com/oc-images-cours/table.jpg', 210.0);
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (6, 'Table d''opération pour Hamsters', 'Pour réaliser vos opérations chirugicales sur votre Hamster!', 'https://s3.eu-west-3.amazonaws.com/oc-images-cours/table.jpg', 210.0);
 
-INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (8, 'Vase ayant appartenu a Zeus', 'Risque de choc électrique', 'https://s3.eu-west-3.amazonaws.com/oc-images-cours/vase.jpg', 730.0);
+INSERT INTO PRODUCT (ID , TITRE ,DESCRIPTION ,IMAGE ,PRIX ) VALUES (7 , 'Vase ayant appartenu a Zeus', 'Risque de choc électrique', 'https://s3.eu-west-3.amazonaws.com/oc-images-cours/vase.jpg', 730.0);
