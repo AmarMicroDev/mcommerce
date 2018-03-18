@@ -11,7 +11,20 @@
 
 <div class="container">
 
-    <h1>Application Mcommerce</h1>
+    <h1 class="text-center" >Application Mcommerce</h1>
+
+    <div class="row">
+
+        <!--
+        Boucle sur tous les objets de type "produit" de la liste et affichage des informations produit.
+        -->
+        <div th:each="produit : ${produits}" class="col-md-4 my-1">
+            <a th:href="@{|/details-produit/${produit.id}|}" >
+                <img th:src="${produit.image}"  class="card-img-top" />
+                <p th:text= "${produit.titre}"></p>
+            </a>
+        </div>
+    </div>
 
 </div>
 
