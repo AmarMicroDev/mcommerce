@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clientui/clientui.iml" filepath="$PROJECT_DIR$/clientui/clientui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-repo/config-server-repo.iml" filepath="$PROJECT_DIR$/config-server-repo/config-server-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-commandes/microservice-commandes.iml" filepath="$PROJECT_DIR$/microservice-commandes/microservice-commandes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-paiement/microservice-paiement.iml" filepath="$PROJECT_DIR$/microservice-paiement/microservice-paiement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-produits/microservice-produits.iml" filepath="$PROJECT_DIR$/microservice-produits/microservice-produits.iml" />
+    </modules>
+  </component>
+</project>
