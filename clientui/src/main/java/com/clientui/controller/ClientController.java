@@ -6,6 +6,8 @@ import com.clientui.beans.ProductBean;
 import com.clientui.proxies.MicroserviceCommandeProxy;
 import com.clientui.proxies.MicroservicePaiementProxy;
 import com.clientui.proxies.MicroserviceProduitsProxy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,6 +35,8 @@ public class ClientController {
     private MicroservicePaiementProxy paiementProxy;
 
 
+    Logger log = LoggerFactory.getLogger(this.getClass());
+
     /*
     * Étape (1)
     * Opération qui récupère la liste des produits et on les affichent dans la page d'accueil.
@@ -42,9 +46,13 @@ public class ClientController {
     @RequestMapping("/")
     public String accueil(Model model){
 
+
+        log.info("Envoi requête vers microservice-produits");
+
         List<ProductBean> produits =  ProduitsProxy.listeDesProduits();
 
         model.addAttribute("produits", produits);
+
 
         return "Accueil";
     }
