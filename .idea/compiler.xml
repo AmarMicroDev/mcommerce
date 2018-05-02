@@ -25,18 +25,24 @@
         <module name="clientui" />
         <module name="config-server" />
         <module name="eureka-server" />
-        <module name="microservice-commandes" />
-        <module name="microservice-paiement" />
-        <module name="microservice-produits" />
+        <module name="mcommandes" />
+        <module name="mpaiement" />
+        <module name="mproduits" />
+        <module name="springadmin" />
+        <module name="zuul-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clientui" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
-      <module name="microservice-commandes" target="1.8" />
-      <module name="microservice-paiement" target="1.8" />
-      <module name="microservice-produits" target="1.8" />
+      <module name="mcommandes" target="1.8" />
+      <module name="microservice-expedition" target="1.8" />
+      <module name="microservice-suivi" target="1.8" />
+      <module name="mpaiement" target="1.8" />
+      <module name="mproduits" target="1.8" />
+      <module name="springadmin" target="1.8" />
+      <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

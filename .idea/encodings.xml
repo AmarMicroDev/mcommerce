@@ -5,7 +5,13 @@
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-commandes" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-expedition" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-paiement" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-produits" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-produits/pom.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/microservice-produits/src" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/microservice-suivi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springadmin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
   </component>
 </project>
