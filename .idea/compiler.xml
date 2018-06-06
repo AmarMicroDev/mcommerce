@@ -28,6 +28,7 @@
         <module name="microservice-commandes" />
         <module name="microservice-paiement" />
         <module name="microservice-produits" />
+        <module name="springadmin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="microservice-commandes" target="1.8" />
       <module name="microservice-paiement" target="1.8" />
       <module name="microservice-produits" target="1.8" />
+      <module name="springadmin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
