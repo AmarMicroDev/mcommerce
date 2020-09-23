@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-commandes/mcommandes.iml" filepath="$PROJECT_DIR$/microservice-commandes/mcommandes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mcommerce.iml" filepath="$PROJECT_DIR$/.idea/mcommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-client/microservice-client.iml" filepath="$PROJECT_DIR$/microservice-client/microservice-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-paiement/mpaiement.iml" filepath="$PROJECT_DIR$/microservice-paiement/mpaiement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-produits/mproduits.iml" filepath="$PROJECT_DIR$/microservice-produits/mproduits.iml" />
+    </modules>
+  </component>
+</project>

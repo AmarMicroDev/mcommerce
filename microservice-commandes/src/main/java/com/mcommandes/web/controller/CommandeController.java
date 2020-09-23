@@ -18,23 +18,29 @@ public class CommandeController {
     @Autowired
     CommandesDao commandesDao;
 
-    @PostMapping (value = "/commandes")
-    public ResponseEntity<Commande> ajouterCommande(@RequestBody Commande commande){
+    @PostMapping(value = "/commandes")
+    public ResponseEntity<Commande> ajouterCommande(@RequestBody Commande commande) {
 
         Commande nouvelleCommande = commandesDao.save(commande);
-
-        if(nouvelleCommande == null) throw new ImpossibleAjouterCommandeException("Impossible d'ajouter cette commande");
+        if (nouvelleCommande == null)
+            throw new ImpossibleAjouterCommandeException("Impossible d'ajouter cette commande");
 
         return new ResponseEntity<Commande>(commande, HttpStatus.CREATED);
     }
 
     @GetMapping(value = "/commandes/{id}")
-    public Optional<Commande> recupererUneCommande(@PathVariable int id){
+    public Optional<Commande> recupererUneCommande(@PathVariable int id) {
 
         Optional<Commande> commande = commandesDao.findById(id);
-
-        if(!commande.isPresent()) throw new CommandeNotFoundException("Cette commande n'existe pas");
+        if (!commande.isPresent()) throw new CommandeNotFoundException("Cette commande n'existe pas");
 
         return commande;
+    }
+
+    @PutMapping(value= "/commandes")
+    public void modifierCommande(@RequestBody Commande commande){
+
+        Commande commandeUpdated = commandesDao.save(commande);
+
     }
 }
